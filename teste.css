@@ -1,0 +1,668 @@
+/* Estilos globais */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ff6f61;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    background-image: url("makeup-beauty-flatlay.jpg");
+    background-attachment: fixed;
+}
+
+/* Cabeçalho */
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: #3e3b3bbf;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+    background-image: url('makeup-beauty-flatlay.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
+    margin-bottom: 80px;
+  }
+  
+  
+
+
+header {
+    background-color: #1713159f; /* Fundo suave */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-bottom: 2px solid #e3d5e6; /* Linha de destaque no cabeçalho */
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ff6f61; /* Cor destacada para o título */
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre itens */
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ff6f61 ; /* Cor dos links */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent; /* Para efeito hover */
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Cor de destaque no hover */
+    border-bottom: 2px solid #ff6f61; /* Linha de destaque ao passar o mouse */
+}
+
+
+
+.video-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #0a0909b8;
+    background-color: #e1486c;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.video-link:hover {
+    background-color: #ff4070;
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-link:active {
+    background-color: #e03563;
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #040202;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Seções */
+section {
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 1200px;
+    background: #060505;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #060607;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #ff6f61;
+    border-bottom: 2px solid #ff6f61;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #050506;
+    border-radius: 8px;
+    background: #000000;
+    font-size: 1rem;
+    resize: none;
+}
+
+form button {
+    background: #ff6f61;
+    color: #000000;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #8b5cf6;
+}
+
+/* Imagens */
+.portfolio-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    border: 2px solid #ff6f61;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #ff6f61;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#contato ul.contato-lista {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#contato ul.contato-lista li {
+    background-color: #ff6f91;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#contato ul.contato-lista li:hover {
+    background-color: #ff4070;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#contato ul.contato-lista li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#contato ul.contato-lista li a:hover {
+    color: #ffccff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sobre-mim p {
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Torna o texto em negrito */
+    color: #ff6f91; /* Altera a cor do texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao texto */
+    line-height: 1.8; /* Define o espaçamento entre linhas */
+}
+
+
+
+
+
+
+
+
+
+
+/* Resetando algumas propriedades padrão */ /*[32mRemove margens e preenchimentos padrão[0m */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo fonte global */ /*[32mDefine a fonte e o estilo global[0m */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #d16767;
+  font-weight: 300;
+  margin: 0;
+  padding: 10;
+  background-image: url("makeup-beauty-flatlay.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Cabeçalho */ /* [32mEstiliza o cabeçalho com fundo e sombra[0m */
+header {
+  background-image: url('makeup-beauty-flatlay.jpg');
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(245, 241, 241, 0.773);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Menu de Navegação */ /* [32mEstiliza os links de navegação[0m */
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding: 5px 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-menu a:hover {
+  color: #e20c10ab;
+}
+
+/* Seção Principal */ /* [32mDefine o estilo da área principal[0m */
+main {
+  background: rgba(255, 255, 255, 0.645);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #d12a2abd;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.726);
+  backdrop-filter: blur(10px);
+}
+
+/* Seção Sobre Mim */ /* [32mPersonaliza a seção Sobre Mim[0m */
+.sobre-mim {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sobre-mim h1 {
+  font-size: 2rem;
+  color: #f3eded;
+  margin-bottom: 20px;
+}
+
+.sobre-mim p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:  #f7f7f7ec;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Portfólio */ /* [32mEstiliza o botão de portfólio[0m */
+.link-portfolio {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #000000b0;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.link-portfolio:hover {
+  background-color: #ff4070;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-portfolio:active {
+  background-color: #e03563;
+  transform: scale(0.95);
+}
+
+/* Seção de Contato */ /* [32mDefine o estilo da seção de contato[0m */
+#contato {
+  background: rgba(255, 255, 255, 0.645);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #d12a2abd;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.726);
+  backdrop-filter: blur(10px);
+}
+
+#contato h2 {
+  font-size: 32px;
+  color: #f3eded;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contato ul li:hover {
+  background: rgba(255, 255, 255, 0.811); /* [32mCor mais intensa ao passar o mouse[0m */
+  transform: scale(1.05);
+}
+
+#contato a:hover {
+  color: #800000b9;
+  text-decoration: underline;
+}
+
+/* Footer */ /* [32mDefine o rodapé[0m */
+footer {
+  background-color: #d12a2af0;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*portifolio*//*[32mEstiliza o botão de portfólio[0m */
+.link-portfolio {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #000000b0;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.link-portfolio:hover {
+  background-color: #ff4070;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-portfolio:active {
+  background-color: #e03563;
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seção de Contato */
+#contato {
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 1200px;
+    background: #ffffff67;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+  }
+  
+  #contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #contato ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contato li {
+    margin-bottom: 10px;
+  }
+  
+  #contato a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+  }
+  
+  #contato a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  OBSERVE ESTE 
+  
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .social-container {
+    margin-bottom: 15px;
+  }
+  
+  footer .social-container a {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-container a:hover {
+    color: #e91e63;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .nav-menu {
+        text-align: center;
+        margin-top: 15px;
+    }
+  
+    .nav-menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+  
+    .sobre-mim p {
+        font-size: 1rem;
+    }
+  
+    #contato h2 {
+        font-size: 1.5rem;
+    }
+  
+    footer .social-container a {
+        font-size: 1.3rem;
+    }
+  }
+  

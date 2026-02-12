@@ -1,0 +1,197 @@
+/* Resetando propriedades padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Definindo uma fonte padrão para o corpo */
+  }
+  
+  /* Definindo fonte global */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #d16767;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-image: url("makeup-beauty-flatlay.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste de fundo para cobrir toda a tela */
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: rgba(248, 248, 248, 0.9); /* Cor de fundo semi-transparente */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(8, 8, 8, 0.536);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-menu a:hover {
+    color: #e20c10ab;
+    border-bottom: 2px solid #e20c10ab; /* Melhor visualização no hover */
+  }
+  
+  /* Seção Principal */
+  main {
+    background: rgba(255, 255, 255, 0.645);
+    padding: 30px; 
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #00000084;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.305);
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Sobre Mim */
+  .sobre-mim {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sobre-mim h1 {
+    font-size: 2rem;
+    color: #f3eded;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-mim p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f7f7f7ec;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Portfolio */
+  .link-portfolio {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #000000b0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link-portfolio:hover {
+    background-color: #ff4070;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .link-portfolio:active {
+    background-color: #e03563;
+    transform: scale(0.95);
+  }
+  
+  /* Seção de Contato */
+  #contato {
+    background: rgba(255, 255, 255, 0.645); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #00000084;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.305);
+    backdrop-filter: blur(10px);
+  }
+  
+  #contato h2 {
+    font-size: 32px;
+    color: #f3eded; 
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #contato p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f7f7f7ec;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #contato ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contato ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    background: rgba(9, 7, 7, 0.695); /* Fundo rosa suave */
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #contato ul li:hover {
+    background: rgba(255, 255, 255, 0.811); /* Cor mais intensa ao passar o mouse */
+    transform: scale(1.05);
+  }
+  
+  #contato ul li strong {
+    color: #c94141;
+  }
+  
+  #contato a {
+    text-decoration: none;
+    color: #d16767;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  #contato a:hover {
+    color: #d25555;
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
